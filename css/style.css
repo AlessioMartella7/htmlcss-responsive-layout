@@ -70,6 +70,10 @@ img {
 
 /* Social Media Buttons */
 
+.social-media {
+    margin-bottom: 50;
+}
+
 .social-buttons {
     display: flex;
     flex-direction: row;
@@ -81,6 +85,12 @@ img {
     background-color: #fff;
     box-shadow: 1px 1px 1px gray;
     list-style-type: none;
+}
+
+/* Advertise banner */
+
+.ads {
+    display: none;
 }
 
 
