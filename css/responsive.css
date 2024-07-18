@@ -50,6 +50,10 @@
         display: block;
     }
 
+    .recipe-card {
+        margin-bottom: 70px;
+    }
+
     .recipe-img {
         float: left;
         margin-right: 15px;
