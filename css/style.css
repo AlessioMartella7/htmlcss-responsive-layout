@@ -70,11 +70,18 @@ img {
 
 /* Social Media Buttons */
 
-.social-media {
+.social-buttons {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
 }
 
-
+.social-buttons li {
+    background-color: #fff;
+    box-shadow: 1px 1px 1px gray;
+    list-style-type: none;
+}
 
 
 /* Media query tablet */
