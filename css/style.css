@@ -15,6 +15,7 @@ header .main-title {
     min-height:80px ;
     padding: 15px;
     background-color: #fff;
+    margin-bottom: 25px;
 }
 
 h1 {
@@ -26,12 +27,55 @@ h1 {
 
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* Utilities */
 
 .container{
-    max-width: 100%;
+    max-width: 645px;
     margin: 0 auto;
 }
+
+/* recipe */
+
+.recipe header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.recipe-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.recipe-video {
+    background-color: aqua;
+    min-height: 200px;
+    flex-basis: 50%;
+}
+
+.recipe-info {
+    background-color: blueviolet;
+    min-height: 200px ;
+    flex-basis: 50%;
+}
+
+/* Social Media Buttons */
+
+.social-media {
+    display: flex;
+}
+
+
+
 
 /* Media query tablet */
 @media  screen and (min-width:768px) {
