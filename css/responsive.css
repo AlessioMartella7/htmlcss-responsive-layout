@@ -1,0 +1,25 @@
+/* Media query tablet */
+@media  screen and (min-width:768px) {
+
+    
+    header .main-title {
+
+        justify-content: flex-start;
+    }
+    
+    h1 {
+        font-size: 3.5rem;
+        margin-left: 25px;
+    }
+
+}
+
+/* media queruy desktop */
+@media screen and (min-width:992px) {
+    
+    
+    h1 {
+        margin-left: 15px;
+        font-size: 3rem;
+    }
+}
