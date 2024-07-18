@@ -10,6 +10,10 @@
 
         justify-content: flex-start;
     }
+
+    .recipe header{
+        margin-bottom: 50px;
+    }
     
     h1 {
         font-size: 3.5rem;
@@ -50,6 +54,16 @@
         display: block;
     }
 
+    .cooking-tips {
+        flex-direction: row;
+    }
+
+    .cooking-tips {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
     .recipe-card {
         margin-bottom: 70px;
     }
@@ -84,6 +98,10 @@
     li span {
         display: inline;
         font-weight: 700;
+    }
+
+    .recipe header{
+        margin-bottom: 25px;
     }
 
     .social-buttons {
