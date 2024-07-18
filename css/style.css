@@ -112,7 +112,7 @@ header .main-title {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 30px;
-    height: 600px;
+    height: 700px;
 }
 
 .recipe-video {
@@ -130,7 +130,7 @@ iframe {
     background-color: #fff;
     flex-basis: 55%;
     box-shadow: 1px 1px 20px grey;
-    padding: 30px;
+    padding: 25px;
 }
 
 .plus-info {

@@ -65,7 +65,7 @@
 
 
     .recipe-card {
-        margin-bottom: 70px;
+        margin-bottom: 30px;
     }
 
     .recipe-img {
@@ -112,15 +112,30 @@
      .recipe-card {
         flex-direction: row;
         max-height: 378px;
+        margin-bottom: 20px;
     }
 
     .recipe-video {
-        flex-basis: 70%;
+        flex-basis: 60%;
     }
 
     .recipe-info {
-        flex-basis: 30%;
+        flex-basis: 40%;
+        padding: 20px;
     }
 
+    .cooking-tips {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .cooking-tips .tips {
+
+        width: 100%;
+
+        
+    }
 }
 
