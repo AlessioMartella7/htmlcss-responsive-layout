@@ -1,0 +1,24 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+body{
+    font-family: "Montserrat", 'Helvetica Neue', sans-serif;;
+}
+
+h1 {
+    font-family:  "Nerko One", cursive;
+
+}
+
+/* Utilities */
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
