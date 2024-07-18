@@ -11,7 +11,7 @@ body{
     font-family: "Montserrat", 'Helvetica Neue', sans-serif;
     background-color: #F6F5F3;
 }
-header {
+header .main-title {
     min-height:80px ;
     padding: 15px;
     background-color: #fff;
