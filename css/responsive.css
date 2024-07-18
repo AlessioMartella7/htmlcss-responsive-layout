@@ -2,7 +2,7 @@
 @media  screen and (min-width:768px) {
 
     .container {
-        max-width: 800px;
+        max-width: 690px;
     }
 
     
@@ -17,15 +17,30 @@
     }
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 32px;
     }
 
     .text2 {display: inline;}
 
-    iframe
-{
-    height: 450px;
-}
+    iframe {
+    height: 380px;
+    }
+
+
+    .social-media{
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .social-buttons {
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .social-buttons li {
+        flex-grow: 1;
+    }
+
     .ads{
         display: block;
         margin-bottom: 20px;
@@ -48,9 +63,42 @@
 /* media quey desktop */
 @media screen and (min-width:992px) {
     
-    
+    .container {
+        max-width: 890px;
+    }
+
+
     h1 {
         margin-left: 15px;
         font-size: 3rem;
     }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    li span {
+        display: inline;
+        font-weight: 700;
+    }
+
+    .social-buttons {
+        justify-content: center;
+        gap: 20px;
+    }
+
+     .recipe-card {
+        flex-direction: row;
+        max-height: 378px;
+    }
+
+    .recipe-video {
+        flex-basis: 70%;
+    }
+
+    .recipe-info {
+        flex-basis: 30%;
+    }
+
 }
+
